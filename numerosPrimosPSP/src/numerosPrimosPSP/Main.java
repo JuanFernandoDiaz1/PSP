@@ -12,7 +12,7 @@ public class Main {
 		System.out.print("Hilos: ");
 		int numero = teclado.nextInt();
 		
-		int resultado = 1000/numero;
+		int resultado = 100000/numero;
 		int inicial = 1;
 		for(int i=1; i<=numero;i++) {
 			Thread h = new Primos(inicial,resultado*i);
