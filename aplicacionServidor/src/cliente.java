@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class cliente {
     public static void main(String[] args) {
         try {
-            File fichero = new File("servidor.txt");
             Socket socketCliente = new Socket("localhost", 1234);
             System.out.println("El cliente esta listo para comunicar");
             BufferedReader entrada = new BufferedReader(new InputStreamReader(socketCliente.getInputStream()));

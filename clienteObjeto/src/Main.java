@@ -1,14 +1,16 @@
 import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         try {
+            Scanner teclado = new Scanner(System.in);
             Socket socketCliente = new Socket("localhost", 1234);
             System.out.println("El cliente esta listo para comunicar");
 
             Mensaje mensaje = new Mensaje();
-            mensaje.setTexto("Holaaaa");
+            mensaje.setTexto(teclado.nextLine());
 
             ObjectOutputStream perSal = new ObjectOutputStream( socketCliente.getOutputStream());
             
