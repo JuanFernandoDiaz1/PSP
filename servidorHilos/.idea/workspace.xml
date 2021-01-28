@@ -52,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clienteHilos" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,17 +64,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="servidorHilos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611845620301</updated>
-      <workItem from="1611845621337" duration="3166000" />
+      <workItem from="1611845621337" duration="5467000" />
+      <workItem from="1611856378234" duration="3352000" />
     </task>
     <servers />
   </component>
@@ -109,24 +100,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="754" height="271" key="GridCell.Tab.0.bottom" timestamp="1611848222451">
+    <state x="1000" y="185" key="FileChooserDialogImpl" timestamp="1611856447204">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="754" height="271" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611848222451" />
-    <state width="754" height="271" key="GridCell.Tab.0.center" timestamp="1611848222451">
+    <state x="1000" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1611856447204" />
+    <state width="570" height="192" key="GridCell.Tab.0.bottom" timestamp="1611860187221">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="754" height="271" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611848222451" />
-    <state width="754" height="271" key="GridCell.Tab.0.left" timestamp="1611848222451">
+    <state width="570" height="192" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1611860187221" />
+    <state width="570" height="192" key="GridCell.Tab.0.center" timestamp="1611860187221">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="754" height="271" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611848222451" />
-    <state width="754" height="271" key="GridCell.Tab.0.right" timestamp="1611848222451">
+    <state width="570" height="192" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1611860187221" />
+    <state width="570" height="192" key="GridCell.Tab.0.left" timestamp="1611860187221">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="754" height="271" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611848222451" />
+    <state width="570" height="192" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1611860187221" />
+    <state width="570" height="192" key="GridCell.Tab.0.right" timestamp="1611860187221">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="570" height="192" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1611860187221" />
     <state x="0" y="50" key="new project wizard" timestamp="1611845642023">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

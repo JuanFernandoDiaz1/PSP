@@ -6,22 +6,18 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Hilo extends Thread{
-    private ServerSocket servidor;
-    private Socket socketCliente;
-    private BufferedReader canalEntrada;
-    private PrintWriter salida;
 
     public void run(){
         try{
-            servidor = new ServerSocket(1234);
+            ServerSocket servidor = new ServerSocket(1234);
             String cadena ="";
 
             System.out.println("Esperando conexion con el cliente...");
-            socketCliente = servidor.accept();
+            Socket socketCliente = servidor.accept();
 
             System.out.println("El cliente se ha conectado...");
-            canalEntrada = new BufferedReader(new InputStreamReader(socketCliente.getInputStream()));
-            salida = new PrintWriter(socketCliente.getOutputStream(), true);
+            BufferedReader canalEntrada = new BufferedReader(new InputStreamReader(socketCliente.getInputStream()));
+            PrintWriter salida = new PrintWriter(socketCliente.getOutputStream(), true);
             while((cadena= canalEntrada.readLine())!= null){
                 System.out.println("Se ha recibido " + cadena);
                 sleep(1000);
@@ -30,9 +26,7 @@ public class Hilo extends Thread{
             System.out.println("Cerrando conexion");
             canalEntrada.close();
 
-        }catch (IOException e){
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        }catch (IOException | InterruptedException e){
             e.printStackTrace();
         }
     }
