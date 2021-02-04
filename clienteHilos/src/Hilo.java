@@ -30,7 +30,7 @@ public class Hilo extends Thread {
                 salida.println(tokens[x]);
             }
 
-            salida.close();
+            //salida.close();
 
         } catch (IOException e) {
             e.printStackTrace();

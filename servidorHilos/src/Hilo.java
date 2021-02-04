@@ -18,7 +18,7 @@ public class Hilo extends Thread{
             System.out.println("El cliente se ha conectado...");
             BufferedReader canalEntrada = new BufferedReader(new InputStreamReader(socketCliente.getInputStream()));
             PrintWriter salida = new PrintWriter(socketCliente.getOutputStream(), true);
-            while((cadena= canalEntrada.readLine())!= null){
+            while((cadena= canalEntrada.readLine())!= null && cadena.compareToIgnoreCase("0")!=0){
                 System.out.println("Se ha recibido " + cadena);
                 sleep(1000);
                 salida.println(cadena.toUpperCase());

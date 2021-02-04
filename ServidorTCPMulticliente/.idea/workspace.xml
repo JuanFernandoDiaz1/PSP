@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34cfff0c-61c7-4ff7-bac2-0c369d0dae86" name="Default Changelist" comment="" />
+    <list default="true" id="0d83d02d-d39a-4085-aed0-2c366b8b2305" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +42,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1nhcARQMYfbnNXHe3D0VhMVXobY" />
+  <component name="ProjectId" id="1o1dFDndEb4WtVz4k5AwzUDHKP7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clienteHilos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aplicacionCliente" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,30 +61,39 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="servidorHilos" />
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Servidor" />
+      <module name="ServidorTCPMulticliente" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Servidor" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34cfff0c-61c7-4ff7-bac2-0c369d0dae86" name="Default Changelist" comment="" />
-      <created>1611845620301</created>
+      <changelist id="0d83d02d-d39a-4085-aed0-2c366b8b2305" name="Default Changelist" comment="" />
+      <created>1612457927140</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611845620301</updated>
-      <workItem from="1611845621337" duration="5467000" />
-      <workItem from="1611856378234" duration="3352000" />
-      <workItem from="1612449899600" duration="1072000" />
+      <updated>1612457927140</updated>
+      <workItem from="1612457928413" duration="4508000" />
     </task>
     <servers />
   </component>
@@ -101,32 +110,27 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1000" y="185" key="FileChooserDialogImpl" timestamp="1611856447204">
+    <state x="193" y="188" key="FileChooserDialogImpl" timestamp="1612461284464">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="1000" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1611856447204" />
-    <state width="670" height="192" key="GridCell.Tab.0.bottom" timestamp="1612450991415">
+    <state x="193" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1612461284464" />
+    <state width="843" height="255" key="GridCell.Tab.0.bottom" timestamp="1612463925561">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="670" height="192" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612450991415" />
-    <state width="670" height="192" key="GridCell.Tab.0.center" timestamp="1612450991415">
+    <state width="843" height="255" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612463925561" />
+    <state width="843" height="255" key="GridCell.Tab.0.center" timestamp="1612463925561">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="670" height="192" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612450991415" />
-    <state width="670" height="192" key="GridCell.Tab.0.left" timestamp="1612450991415">
+    <state width="843" height="255" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612463925561" />
+    <state width="843" height="255" key="GridCell.Tab.0.left" timestamp="1612463925561">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="670" height="192" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612450991415" />
-    <state width="670" height="192" key="GridCell.Tab.0.right" timestamp="1612450991415">
+    <state width="843" height="255" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612463925561" />
+    <state width="843" height="255" key="GridCell.Tab.0.right" timestamp="1612463925561">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="670" height="192" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612450991415" />
-    <state x="0" y="50" key="new project wizard" timestamp="1611845642023">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="0" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1611845642023" />
+    <state width="843" height="255" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612463925561" />
   </component>
 </project>

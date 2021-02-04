@@ -8,6 +8,7 @@ public class Main {
             Socket cliente = new Socket("localhost", 1234);
             Hilo hilo = new Hilo(cliente);
             HiloRecibe hilo2 = new HiloRecibe(cliente);
+
             hilo.start();
             hilo.join();
             hilo2.start();
