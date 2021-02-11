@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d458fc2-f892-451e-afe7-995aeb680d3a" name="Default Changelist" comment="" />
+    <list default="true" id="70f84f98-c48a-46d0-aa9b-1540fc1e76ea" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +42,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1nNxuCr1zjQ5XHU02AILcLdc4CR" />
+  <component name="ProjectId" id="1oLKVJq2jYNyIocArWyMzKKnkUs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,41 +52,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cliente" />
-      <module name="aplicacionServidor" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.cliente" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2d458fc2-f892-451e-afe7-995aeb680d3a" name="Default Changelist" comment="" />
-      <created>1611244572817</created>
+      <changelist id="70f84f98-c48a-46d0-aa9b-1540fc1e76ea" name="Default Changelist" comment="" />
+      <created>1613060455426</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611244572817</updated>
-      <workItem from="1611244573848" duration="3664000" />
-      <workItem from="1611254147508" duration="551000" />
-      <workItem from="1611846469538" duration="378000" />
-      <workItem from="1612457595712" duration="2336000" />
-      <workItem from="1613055353803" duration="80000" />
+      <updated>1613060455426</updated>
+      <workItem from="1613060456580" duration="721000" />
     </task>
     <servers />
   </component>
@@ -103,28 +91,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="852" height="225" key="GridCell.Tab.0.bottom" timestamp="1612463929451">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="852" height="225" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1612463929451" />
-    <state width="852" height="225" key="GridCell.Tab.0.center" timestamp="1612463929451">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="852" height="225" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1612463929451" />
-    <state width="852" height="225" key="GridCell.Tab.0.left" timestamp="1612463929451">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="852" height="225" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1612463929451" />
-    <state width="852" height="225" key="GridCell.Tab.0.right" timestamp="1612463929451">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="852" height="225" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1612463929451" />
-    <state x="507" y="29" width="585" height="801" key="find.popup" timestamp="1611244646433">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="507" y="29" width="585" height="801" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1611244646433" />
   </component>
 </project>

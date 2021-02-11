@@ -1,16 +1,17 @@
 import java.io.*;
 import java.net.Socket;
-import java.util.Scanner;
 
 public class ServidorHilo extends Thread {
     private Socket socket;
     private BufferedReader canalentrada;
     private PrintWriter salida;
-    private int idSessio;
+    private String nombre;
+    private String mensaje;
 
-    public ServidorHilo(Socket socket, int id) {
+
+    public ServidorHilo(Socket socket, String nombre) {
         this.socket = socket;
-        this.idSessio = id;
+        this.nombre = nombre;
         try {
             canalentrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             salida = new PrintWriter(socket.getOutputStream(), true);
@@ -21,14 +22,13 @@ public class ServidorHilo extends Thread {
 
     @Override
     public void run() {
-        Scanner teclado = new Scanner(System.in);
         String cadena = "";
         try {
 
             while ((cadena = canalentrada.readLine()) != null) {
-                System.out.println("El cliente con idSesion " + this.idSessio + " dice: " + cadena);
-
-                salida.println(cadena.toUpperCase());
+                System.out.println("El cliente "+nombre+" dice: " + cadena);
+                setMensaje(cadena);
+                salida.println(cadena);
             }
 
 
@@ -43,4 +43,12 @@ public class ServidorHilo extends Thread {
         }
 
     }
+    public void getMensaje(){
+        salida.println(mensaje);
+    }
+
+    public void setMensaje(String mensaje){
+        this.mensaje=mensaje;
+    }
+
 }
