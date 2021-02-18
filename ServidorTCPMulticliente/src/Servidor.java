@@ -20,10 +20,9 @@ public class Servidor {
                 canalentrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 String nombre = canalentrada.readLine();
                 System.out.println(nombre);
-                System.out.println("El cliente con id " + nombre + " se ha conectado");
+                System.out.println("El cliente " + nombre + " se ha conectado");
                 ServidorHilo sh = new ServidorHilo(socket, nombre);
                 sh.start();
-
             }
 
         } catch (IOException ex) {

@@ -1,6 +1,5 @@
 import java.io.*;
 import java.net.Socket;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Cliente {
@@ -23,19 +22,6 @@ public class Cliente {
             System.out.println("Envio: " + nombre);
             salida.println(nombre);
 
-            //asasa
-            EnviarMensaje enviar = new EnviarMensaje(socket);
-            RecibirMensaje recibir = new RecibirMensaje(socket);
-
-            enviar.start();
-            recibir.start();
-
-            enviar.join();
-            recibir.join();
-
-
-
-            /*
             while(saludo.compareToIgnoreCase("0")!=0){
                 System.out.print("Escribe: ");
                 saludo = teclado.nextLine();
@@ -47,7 +33,7 @@ public class Cliente {
                 respuesta = canalentrada.readLine();
                 System.out.println("Servidor devuelve: " + respuesta);
 
-            }*/
+            }
 
 
             canalentrada.close();
@@ -55,8 +41,6 @@ public class Cliente {
             socket.close();
         } catch (IOException ex) {
             ex.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         }
     }
 }
