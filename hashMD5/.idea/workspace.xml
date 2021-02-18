@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b88eca65-759b-441a-b3c3-66fecc8ff99c" name="Default Changelist" comment="" />
+    <list default="true" id="24dc77bd-1bc6-4700-8991-fda3199f77c2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +42,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1o1dY9S1Oe03ymBvJemZlXXR3xQ" />
+  <component name="ProjectId" id="1of0971T2tkrCGIBO05OMjYJQR7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,7 +52,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,15 +59,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\juanfernando.diaz.JUANXXIII_23\Documents\GitHub\PSP\ClienteTCPMulticliente\src" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="Cliente" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cliente" />
-      <module name="ClienteTCPMulticliente" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hashMD5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,23 +80,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b88eca65-759b-441a-b3c3-66fecc8ff99c" name="Default Changelist" comment="" />
-      <created>1612458080296</created>
+      <changelist id="24dc77bd-1bc6-4700-8991-fda3199f77c2" name="Default Changelist" comment="" />
+      <created>1613662184818</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612458080296</updated>
-      <workItem from="1612458081399" duration="4322000" />
-      <workItem from="1613055471170" duration="3991000" />
-      <workItem from="1613062972339" duration="3186000" />
-      <workItem from="1613068055629" duration="466000" />
-      <workItem from="1613659809061" duration="943000" />
+      <updated>1613662184818</updated>
+      <workItem from="1613662186021" duration="4352000" />
     </task>
     <servers />
   </component>
@@ -119,32 +109,31 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="508" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612461926305">
+    <state width="1557" height="154" key="GridCell.Tab.0.bottom" timestamp="1613667380318">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1612461926305" />
-    <state width="765" height="266" key="GridCell.Tab.0.bottom" timestamp="1613660762147">
+    <state width="1557" height="154" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1613667380318" />
+    <state width="1557" height="154" key="GridCell.Tab.0.center" timestamp="1613667380302">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="765" height="266" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1613660762147" />
-    <state width="765" height="266" key="GridCell.Tab.0.center" timestamp="1613660762147">
+    <state width="1557" height="154" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1613667380302" />
+    <state width="1557" height="154" key="GridCell.Tab.0.left" timestamp="1613667380302">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="765" height="266" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1613660762147" />
-    <state width="765" height="266" key="GridCell.Tab.0.left" timestamp="1613660762147">
+    <state width="1557" height="154" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1613667380302" />
+    <state width="1557" height="154" key="GridCell.Tab.0.right" timestamp="1613667380302">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="765" height="266" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1613660762147" />
-    <state width="765" height="266" key="GridCell.Tab.0.right" timestamp="1613660762147">
+    <state width="1557" height="154" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1613667380302" />
+    <state x="182" y="50" key="new project wizard" timestamp="1613667378559">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="765" height="266" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1613660762147" />
-    <state x="365" y="54" key="new project wizard" timestamp="1613060452247">
+    <state x="182" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1613667378559" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1613664453011">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="365" y="54" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1613060452247" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1613664453011" />
   </component>
 </project>
