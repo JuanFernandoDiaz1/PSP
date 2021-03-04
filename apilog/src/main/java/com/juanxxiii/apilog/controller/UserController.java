@@ -54,16 +54,9 @@ public class UserController {
     @PostMapping("/user")
     public String save(@RequestBody User user){
         String msg="";
-        userArrayList=this.userServiceImpl.findAll();
-        int cont=0;
-        String pswd=hash.codificar(user.getPassword());
-        user.setPassword(pswd);
-        for(User u:userArrayList){
-            if(u.getName().compareToIgnoreCase(user.getName())==0){
-                cont++;
-            }
-        }
-        if(cont==0){
+        if(!this.userServiceImpl.findByUserName(user.getName()).isPresent()){
+            String pswd=hash.codificar(user.getPassword());
+            user.setPassword(pswd);
             this.userServiceImpl.save(user);
             msg = "Guardado correctamente";
         }else{
@@ -72,13 +65,8 @@ public class UserController {
         return msg;
     }
 
-    public List<User> comprobarNames(){
-        userArrayList=this.userServiceImpl.findAll();
-        return userArrayList;
-    }
-
-    @DeleteMapping("/user/{name}")
-    public boolean delete(@PathVariable String name){
+    @DeleteMapping("/user")
+    public boolean delete(@RequestParam String name){
         this.userServiceImpl.delete(name);
         return true;
     }

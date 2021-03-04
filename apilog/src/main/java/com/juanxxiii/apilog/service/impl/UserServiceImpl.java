@@ -33,8 +33,12 @@ public class UserServiceImpl implements UserService {
         this.userRepository.deleteById(name);
     }
 
-    public User save(User blog){
-        return this.userRepository.save(blog);
+    public User save(User user){
+        return this.userRepository.save(user);
+    }
+
+    public Optional<User> searchUserByName(String name){
+        return this.userRepository.searchByUserName(name);
     }
 
     @Override
