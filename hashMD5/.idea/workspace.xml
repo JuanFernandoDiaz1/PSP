@@ -67,13 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613662184818</updated>
       <workItem from="1613662186021" duration="4352000" />
+      <workItem from="1614871309421" duration="1991000" />
     </task>
     <servers />
   </component>
@@ -109,6 +112,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1557" height="154" key="GridCell.Tab.0.bottom" timestamp="1613667380318">

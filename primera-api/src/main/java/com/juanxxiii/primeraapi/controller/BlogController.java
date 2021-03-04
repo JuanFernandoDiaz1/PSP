@@ -9,9 +9,9 @@ import java.util.List;
 public class BlogController {
     @GetMapping("/blog")
     public List<Blog> getBlogs(){
-        return List.of(new Blog("titulo", "blablabla"),
-                new Blog("titulo2", "blablabla2"),
-                new Blog("titulo3", "blablabla3")
+        return List.of(new Blog("titulo", "contenido"),
+                new Blog("titulo2", "contenido2"),
+                new Blog("titulo3", "contenido3")
         );
 
     }
