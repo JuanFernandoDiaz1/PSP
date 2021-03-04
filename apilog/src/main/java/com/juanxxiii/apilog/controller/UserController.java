@@ -31,39 +31,63 @@ public class UserController {
     @GetMapping("/user")
     public boolean login(@RequestParam String name, @RequestParam String password){
         boolean valid=false;
-        for(User a: this.userServiceImpl.findAll()){
-            if(a.getName().compareToIgnoreCase(name)==0&&a.getPassword().compareTo(hash.codificar(password))==0){
+        if(this.userServiceImpl.findByUserName(name).isPresent()){
+            User a=this.userServiceImpl.findByUserName(name).get();
+            if(a.getPassword().compareTo(hash.codificar(password))==0){
                 valid = true;
             }else{
                 valid = false;
             }
+        }else{
+            valid = false;
         }
+
+
         return valid;
     }
 
-    @RequestMapping("/user/{id}")
-    public User find(@PathVariable Integer id){
-        return this.userServiceImpl.findById(id).get();
+    @RequestMapping("/user/{name}")
+    public User find(@PathVariable String name){
+        return this.userServiceImpl.findByUserName(name).get();
     }
 
     @PostMapping("/user")
-    public User save(@RequestBody User user){
+    public String save(@RequestBody User user){
+        String msg="";
+        userArrayList=this.userServiceImpl.findAll();
+        int cont=0;
         String pswd=hash.codificar(user.getPassword());
         user.setPassword(pswd);
-        return this.userServiceImpl.save(user);
+        for(User u:userArrayList){
+            if(u.getName().compareToIgnoreCase(user.getName())==0){
+                cont++;
+            }
+        }
+        if(cont==0){
+            this.userServiceImpl.save(user);
+            msg = "Guardado correctamente";
+        }else{
+            msg = "El nombre ya existe";
+        }
+        return msg;
     }
 
-    @DeleteMapping("/user/{id}")
-    public boolean delete(@PathVariable Integer id){
-        this.userServiceImpl.delete(id);
+    public List<User> comprobarNames(){
+        userArrayList=this.userServiceImpl.findAll();
+        return userArrayList;
+    }
+
+    @DeleteMapping("/user/{name}")
+    public boolean delete(@PathVariable String name){
+        this.userServiceImpl.delete(name);
         return true;
     }
 
-    @PutMapping("user/{id}")
-    public ResponseEntity<User> update(@PathVariable Integer id, @RequestBody User UserUpdate){
+    @PutMapping("user/{name}")
+    public ResponseEntity<User> update(@PathVariable String name, @RequestBody User UserUpdate){
         return ResponseEntity
                 .ok()
-                .body(userServiceImpl.update(UserUpdate, id));
+                .body(userServiceImpl.update(UserUpdate, name));
     }
 
 

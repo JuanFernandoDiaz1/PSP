@@ -21,16 +21,16 @@ public class UserServiceImpl implements UserService {
         this.userRepository = userRepository;
     }
 
-    public Optional<User> findById(Integer id){
-        return this.userRepository.findById(id);
+    public Optional<User> findByUserName(String name){
+        return this.userRepository.findById(name);
     }
 
     public List<User> findAll(){
         return this.userRepository.findAll();
     }
 
-    public void delete(Integer id){
-        this.userRepository.deleteById(id);
+    public void delete(String name){
+        this.userRepository.deleteById(name);
     }
 
     public User save(User blog){
@@ -38,14 +38,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User update(User userUpdate, Integer id) {
-        User blog = this.userRepository.findById(id).orElseThrow();
-        userUpdate.setId(blog.getId());
+    public User update(User userUpdate, String name) {
+        User blog = this.userRepository.findById(name).orElseThrow();
+        userUpdate.setName(blog.getName());
         return this.userRepository.save(userUpdate);
     }
 
     @Override
-    public User patch(User body, Integer id) {
+    public User patch(User body, String name) {
         User blog;
         return null;
     }
