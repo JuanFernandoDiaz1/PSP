@@ -23,12 +23,12 @@ public class UserController {
         this.userServiceImpl =UserServiceImpl;
     }
 
-    @GetMapping("/blog")
+    @GetMapping("/user")
     public List<User> index(){
         return this.userServiceImpl.findAll();
     }
 
-    @GetMapping("/user")
+    @GetMapping("/user/login")
     public boolean login(@RequestParam String name, @RequestParam String password){
         boolean valid=false;
         if(this.userServiceImpl.findByUserName(name).isPresent()){
